@@ -1,12 +1,12 @@
 # CV Web - Francisco Puyo
 
-Este es el portafolio y currículum web de Francisco Puyo, construido con Vite.
+Este es el portafolio y currículum web de Francisco Puyo
 
 ## Despliegue
 
 El proyecto está configurado para desplegarse automáticamente en GitHub Pages mediante GitHub Actions.
 
-URL del sitio: `https://<tu-usuario>.github.io/cv-web-francisco/`
+URL del sitio: `https://fpuyog.github.io/cv-web-francisco/`
 
 ## Desarrollo Local
 
