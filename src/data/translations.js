@@ -35,9 +35,10 @@ export const translations = {
                     tags: ["React", "D3.js", "Node.js"]
                 },
                 {
-                    title: "API RESTful Microservicios",
-                    description: "Arquitectura de microservicios escalable desplegada en Kubernetes.",
-                    tags: ["Go", "Docker", "K8s"]
+                    title: "Modern Data Stack",
+                    description: "Data warehouse con arquitectura medallion (Bronze/Silver/Gold) en AWS. Pipeline ETL que procesa datos desde APIs, implementa transformaciones con Pandas y genera métricas agregadas consultables vía SQL en Athena.",
+                    tags: ["Python", "AWS", "SQL"],
+                    link: "https://github.com/fpuyog/modern-data-stack"
                 }
             ]
         },
@@ -89,9 +90,10 @@ export const translations = {
                     tags: ["React", "D3.js", "Node.js"]
                 },
                 {
-                    title: "RESTful Microservices API",
-                    description: "Scalable microservices architecture deployed on Kubernetes.",
-                    tags: ["Go", "Docker", "K8s"]
+                    title: "Modern Data Stack",
+                    description: "Data warehouse with medallion architecture (Bronze/Silver/Gold) on AWS. ETL pipeline that processes data from APIs, implements transformations with Pandas, and generates aggregated metrics queryable via SQL in Athena.",
+                    tags: ["Python", "AWS", "SQL"],
+                    link: "https://github.com/fpuyog/modern-data-stack"
                 }
             ]
         },
