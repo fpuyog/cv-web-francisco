@@ -6,7 +6,7 @@ export const Projects = ({ t }) => {
       <div class="project-tags">
         ${project.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
       </div>
-      <a href="#" class="project-link">${t.projects.viewProject} <i class="fas fa-arrow-right"></i></a>
+      <a href="${project.link || '#'}" class="project-link" ${project.link ? 'target="_blank" rel="noopener noreferrer"' : ''}>${t.projects.viewProject} <i class="fas fa-arrow-right"></i></a>
     </article>
   `).join('');
 
